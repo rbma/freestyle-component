@@ -1,0 +1,1 @@
+"use strict";angular.module("rbmaSushiSequencer",[]).controller("SushiSequencerController",["$scope","Couchdb",function(e,r){return r.getSearchView("search","multiSearch",{q:"type:sushiSequencer",include_docs:!0},!0).then(function(r){return e.artists=r.data.rows[0].doc.artists})}]);

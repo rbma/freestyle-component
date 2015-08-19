@@ -1,0 +1,14 @@
+.sushi-sequencer .sushi-sequencer--artist {
+  box-sizing: border-box;
+  padding-top: 20vh;
+  height: 100vh;
+  text-align: center; }
+  .sushi-sequencer .sushi-sequencer--artist h1 {
+    color: white;
+    font-size: 600%;
+    font-weight: bold; }
+  .sushi-sequencer .sushi-sequencer--artist rbma-video-block {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 100px; }

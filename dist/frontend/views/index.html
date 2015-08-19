@@ -1,0 +1,16 @@
+<rbma-navigation-page site="daily" ng-class="{'nav-overlay-visible': showOverlay}"></rbma-navigation-page>
+
+<div class="everything-after-nav" id="js-everything-after-nav">
+  <div class="page-container">
+    <div ng-controller="SushiSequencerController" class="sushi-sequencer">
+      <section class="sushi-sequencer--artist" ng-repeat="artist in artists" rbma-background-image="artist.posterImage">
+        <h1>{{ artist.name }}</h1>
+        <rbma-video-block block="{video: artist.video}"></rbma-video-block>
+      </section>
+    </div>
+  </div>
+
+  <footer class="main-footer text-color-body bg-color-secondary bg-color-body--svg">
+    <div ng-include="'views/shared/footer.html'"></div>
+  </footer>
+</div>

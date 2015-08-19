@@ -1,0 +1,22 @@
+{
+  "name": "rbma-sushi-sequencer",
+  "homepage": "https://github.com/philippbosch/rbma-sushi-sequencer",
+  "authors": [
+    "Philipp Bosch <hello@pb.io>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "dist/admin/scripts/index.js"
+  ],
+  "rbmaSpecialFeature": "sushi-sequencer"
+}
