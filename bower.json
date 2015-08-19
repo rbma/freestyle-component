@@ -1,8 +1,8 @@
 {
-  "name": "rbma-sushi-sequencer",
-  "homepage": "https://github.com/philippbosch/rbma-sushi-sequencer",
+  "name": "rbma-freestyle-component",
+  "homepage": "https://github.com/rbma/freestyle-component",
   "authors": [
-    "Philipp Bosch <hello@pb.io>"
+    "James Pants <james@rds.zone>"
   ],
   "moduleType": [
     "globals"
@@ -18,5 +18,8 @@
   "main": [
     "dist/admin/scripts/index.js"
   ],
-  "rbmaSpecialFeature": "sushi-sequencer"
+  "rbmaSpecialFeature": "rbma-freestyle-component",
+  "dependencies": {
+    "pixi.js": "~3.0.7"
+  }
 }

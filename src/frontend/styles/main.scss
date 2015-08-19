@@ -1,21 +1,8 @@
-.sushi-sequencer {
-  .sushi-sequencer--artist {
-    box-sizing: border-box;
-    padding-top: 20vh;
-    height: 100vh;
-    text-align: center;
-
-    h1 {
-      color: white;
-      font-size: 600%;
-      font-weight: bold;
-    }
-
-    rbma-video-block {
-      display: block;
-      margin: 0 auto;
-      width: 800px;
-      height: 100px;
-    }
-  }
+.freestyle-component{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  margin-top: 80px;
+  text-align: center;
+  background: blue;
 }

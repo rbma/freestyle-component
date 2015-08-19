@@ -3,15 +3,35 @@
 
 <div class="everything-after-nav" id="js-everything-after-nav">
   <div class="page-container">
-    <div ng-controller="SushiSequencerController" class="sushi-sequencer">
-      <section class="sushi-sequencer--artist" ng-repeat="artist in artists" rbma-background-image="artist.posterImage">
-        <h1 class="artist-name">{{ artist.name }}</h1>
-        <rbma-video-block block="{video: artist.video}"></rbma-video-block>
-      </section>
+    <div ng-controller="FreestyleComponentController" class="freestyle-component">
+      
+
+
+      <header id="header">
+        
+      </header>
+
+      <div class="info" id="info">
+        
+      </div>
+
+      <audio id="audio" loop autoplay controls="false">
+        <source id="mp3" src="" type="audio/mp3">
+      </audio>
+
+      <h1>{{testing}}</h1>
+    
+
+
+
+
+
+
+
     </div>
   </div>
 
-  <footer class="main-footer text-color-body bg-color-secondary bg-color-body--svg">
+  <!-- <footer class="main-footer text-color-body bg-color-secondary bg-color-body--svg">
     <div ng-include="'views/shared/footer.html'"></div>
-  </footer>
+  </footer> -->
 </div>
